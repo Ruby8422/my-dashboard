@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/olo-id/:match*",
+      "destination": "https://olo-id-extractor.vercel.app/:match*"
+    },
+    {
+      "source": "/plux/:match*",
+      "destination": "https://plux-build-ai.vercel.app/:match*"
+    },
+    {
+      "source": "/logs/:match*",
+      "destination": "https://log-insight.vercel.app/:match*"
+    }
+  ]
+}
